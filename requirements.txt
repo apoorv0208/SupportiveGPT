@@ -58,3 +58,4 @@ mysql-connector-python   # MySQL connector for Python
 # playsound             # Often fails on some systems; use pydub instead
 # io                    # Built-in Python module — should not be in requirements.txt
 langchain-community   # Typo / duplicate of `langchain_community`
+multidict==6.0.4
