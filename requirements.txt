@@ -7,6 +7,7 @@ langdetect
 googletrans==4.0.0-rc1
 streamlit-chat
 bcrypt
+mysql-connector-python
 # Core GenAI & LangChain
 # langchain
 # langchain_community
@@ -59,7 +60,7 @@ bcrypt
 # Pillow                   # Image processing (e.g., with Transformers)
 
 # Database
-# mysql-connector-python   # MySQL connector for Python
+#    # MySQL connector for Python
 
 # Optional / removed packages
 # playsound             # Often fails on some systems; use pydub instead
