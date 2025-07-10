@@ -6,6 +6,7 @@ SpeechRecognition
 langdetect
 googletrans==4.0.0-rc1
 streamlit-chat
+bcrypt
 # Core GenAI & LangChain
 # langchain
 # langchain_community
