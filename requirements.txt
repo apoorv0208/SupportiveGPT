@@ -1,61 +1,67 @@
 streamlit
-
-# Core GenAI & LangChain
-langchain
-langchain_community
-langchain-openai
-langchain-text-splitters
-langchain_huggingface
-langchain_groq
-sentence-transformers
-chromadb
-faiss-cpu
-streamlit
+dotenv
+requests
+pyttsx3
+SpeechRecognition
+langdetect
+googletrans==4.0.0-rc1
 streamlit-chat
-langserve
+# Core GenAI & LangChain
+# langchain
+# langchain_community
+# langchain-openai
+# langchain-text-splitters
+# langchain_huggingface
+# langchain_groq
+# sentence-transformers
+# chromadb
+# faiss-cpu
+
+# langserve
 
 # General utilities
-ipykernel
-python-dotenv
-requests
-fastapi
+# ipykernel
+
+# python-dotenv
+
+# fastapi
 
 # PDF & text processing
-pypdf
-pymupdf
-bs4
-arxiv
-wikipedia
+# pypdf
+# pymupdf
+# bs4
+# arxiv
+# wikipedia
 
 # Audio & speech modules
-SpeechRecognition        # For voice-to-text
-pyttsx3                  # For offline text-to-speech (TTS)
-pydub                    # Audio playback and conversion
+        # For voice-to-text
+                  # For offline text-to-speech (TTS)
+# pydub                    # Audio playback and conversion
 
 # Language detection and translation
-langdetect               # For language detection
-googletrans==4.0.0-rc1   # For translation (note: older version is stable)
+               # For language detection
+   # For translation (note: older version is stable)
 
 # Optional: if you need online text-to-speech
-gTTS                   # Google TTS (commented because of installation issues)
+# gTTS                   # Google TTS (commented because of installation issues)
 
 # Optional: if you're using video/audio download features
-youtube-dl               # Downloading audio/video from YouTube
+# youtube-dl               # Downloading audio/video from YouTube
 
 # Vision & ML
-opencv-python            # For image/audio/video processing
+# opencv-python            # For image/audio/video processing
 # mediapipe              # Commented due to platform-specific install issues
 
 # Deep learning and NLP
-transformers
-torch
-Pillow                   # Image processing (e.g., with Transformers)
+# transformers
+# torch
+# Pillow                   # Image processing (e.g., with Transformers)
 
 # Database
-mysql-connector-python   # MySQL connector for Python
+# mysql-connector-python   # MySQL connector for Python
 
 # Optional / removed packages
 # playsound             # Often fails on some systems; use pydub instead
 # io                    # Built-in Python module — should not be in requirements.txt
-langchain-community   # Typo / duplicate of `langchain_community`
-multidict==6.0.4
+# langchain-community   # Typo / duplicate of `langchain_community`
+# multidict==6.0.4
